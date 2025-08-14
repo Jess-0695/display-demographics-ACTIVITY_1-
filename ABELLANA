@@ -1,0 +1,32 @@
+using System;
+
+class Program{
+    static void Main(string[] args)
+    {
+        //DEFINE VARIABLES
+        string studentID = "202310001";
+        string fullName = "Jesserita R. Abellana";
+        string nickName = "Jess";
+        string gender = "Female";
+        string yearLevel = "2nd Year";
+        string homeLocation = "Mohon, Talisay City";
+        string course = "Bachelor of Science in Information Technology";
+        string mobileNo = "+639123456789";
+        string personalEmail = "jess.abellana@example.com";
+        
+        //Display Demographics
+        Console.WriteLine("Activity 1 - [Dispay Demographics]");
+        Console.WriteLine("Demographics Program by [Abellana]\n");
+        
+        Console.WriteLine($"Student ID: {studentID}");
+        Console.WriteLine($"Full Name: {fullName}");
+        Console.WriteLine($"Nick Name: {nickName}");
+        Console.WriteLine($"Gender: {gender}");
+        Console.WriteLine($"Year Level: {yearLevel}");
+        Console.WriteLine($"Home LOcation: {homeLocation}");
+        Console.WriteLine($"Course: {course}");
+        Console.WriteLine($"MObile No: {mobileNo}");
+        Console.WriteLine($"Personal Email: {personalEmail}");
+        Console.ReadKey();
+    }
+}
